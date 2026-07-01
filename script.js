@@ -2,7 +2,7 @@ const prompt = require('prompt-sync')()
 
 
 
-let numero = prompt('digite un número: ');
+let numero = parseInt(prompt('digite un número: '));
 
 const factorial = (num) => {
 
